@@ -441,6 +441,34 @@
       border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
 
+    /* Estilos para la sección de documental */
+    .documentary-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2rem;
+      background: #FF0000;
+      color: white;
+      border-radius: 50px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      border: 1px solid #CC0000;
+      margin-top: 1rem;
+      box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    }
+
+    .documentary-button:hover {
+      background: #CC0000;
+      transform: translateY(-3px);
+      box-shadow: 0 7px 20px rgba(255, 0, 0, 0.4);
+    }
+
+    .documentary-button i {
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+
     /* Responsive */
     @media (max-width: 768px) {
       header h1 {
@@ -616,6 +644,22 @@
         <li>No son arañas agresivas, la mayoría de mordeduras ocurren accidentalmente</li>
         <li>Su tela es desordenada y pegajosa, no orbicular como otras arañas</li>
       </ul>
+    </div>
+
+    <div class="info-section">
+      <h2 class="section-title">Documental</h2>
+      <p>Para aprender más sobre la fascinante y peligrosa Araña Violinista, te recomendamos ver este documental especializado:</p>
+      
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="https://www.youtube.com/watch?v=ejemplo-documental-araña" 
+           target="_blank" 
+           class="documentary-button">
+          <i class="fab fa-youtube"></i> Ver Documental en YouTube
+        </a>
+        <p style="margin-top: 1rem; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+          Documental "Los secretos de la Araña Violinista" (45 min)
+        </p>
+      </div>
     </div>
   </div>
 
