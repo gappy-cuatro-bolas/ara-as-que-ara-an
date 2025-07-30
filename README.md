@@ -651,13 +651,13 @@
       <p>Para aprender más sobre la fascinante y peligrosa Araña Violinista, te recomendamos ver este documental especializado:</p>
       
       <div style="text-align: center; margin-top: 2rem;">
-        <a href="https://www.youtube.com/watch?v=ejemplo-documental-araña" 
+        <a href="https://www.youtube.com/watch?v=YtdHThU2-_s" 
            target="_blank" 
            class="documentary-button">
           <i class="fab fa-youtube"></i> Ver Documental en YouTube
         </a>
         <p style="margin-top: 1rem; font-size: 0.9rem; color: rgba(255,255,255,0.7);">
-          Documental "Los secretos de la Araña Violinista" (45 min)
+          Documental "Los secretos de la Araña Violinista" (13 min)
         </p>
       </div>
     </div>
